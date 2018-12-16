@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/mtii"
+
+    tools:context=".ExamPart.Level1Question">
+
+    <Button
+        android:fontFamily="sans-serif"
+        android:id="@+id/Level1Button"
+        android:text="Level 1"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="1222dp"
+        android:layout_height="60dp"
+        android:background="#7dd1a1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/Level2Button"
+        android:text="Level 2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="1222dp"
+        android:layout_height="60dp"
+        android:background="#7dd1a1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/Level3Button"
+        android:text="Level 3"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="1222dp"
+        android:layout_height="60dp"
+        android:background="#7dd1a1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/Level4Button"
+        android:text="Level 4"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="1222dp"
+        android:layout_height="60dp"
+        android:background="#7dd1a1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/Level5Button"
+        android:text="Level 5"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="1222dp"
+        android:layout_height="60dp"
+        android:background="#7dd1a1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

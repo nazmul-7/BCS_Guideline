@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/mtii"
+    tools:context=".SignUpActivity">
+
+
+    <EditText
+        android:textColorHint="#e7bcbc"
+
+        android:hint="Username :"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold|italic"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:id="@+id/SignUpusernameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:textColorHint="#e7bcbc"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="Password :"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold|italic"
+        android:inputType="textPassword"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:id="@+id/SignUppasswordId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColorHint="#e7bcbc"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="Confirm Password :"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold|italic"
+        android:inputType="textPassword"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:id="@+id/SignUppasswordIdconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+    <Button
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:id="@+id/SignUpButtonId"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Sign Up"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="16"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.bcs_guideline.Home"
+    tools:showIn="@layout/app_bar_home">
+
+    <Button
+        android:textColor="#060606"
+        android:layout_weight="2"
+        android:id="@+id/SylhetButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/sylhetbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+    <Button
+        android:layout_weight="2"
+        android:id="@+id/DhakaButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/dhakabutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColor="#060606"
+        />
+
+    <Button
+        android:layout_weight="2"
+        android:id="@+id/KhulnaButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/khulnabutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColor="#060606"
+        />
+
+    <Button
+        android:layout_weight="2"
+        android:id="@+id/MymensinghButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/mymensinghbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColor="#060606"
+        />
+
+    <Button
+        android:layout_weight="2"
+        android:id="@+id/RajshahiButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/rajshahibutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColor="#060606"
+        />
+
+    <Button
+        android:layout_weight="2"
+        android:id="@+id/RangpurButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/rangpurbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColor="#060606"
+        />
+
+    <Button
+        android:layout_weight="2"
+        android:id="@+id/BarisalButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/barisalbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColor="#060606"
+        />
+
+    <Button
+        android:layout_weight="2"
+        android:id="@+id/ChittagongButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/chittagongbutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textColor="#060606"
+        />
+
+</LinearLayout>

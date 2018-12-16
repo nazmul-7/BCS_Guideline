@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.bcs_guideline">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".Study" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About" />
+        <activity android:name=".AboutDeveloper" />
+        <activity android:name=".Refarance" />
+        <activity android:name=".Bangla_sahitto" />
+        <activity android:name=".English" />
+        <activity android:name=".Bangladesh_bisoyaboli" />
+        <activity android:name=".Biggan" />
+        <activity android:name=".ExamPart.ExamActivity" />
+        <activity android:name=".ModelTest" />
+        <activity android:name=".ExamPart.Level1QuestionActivity" />
+        <activity android:name=".ExamPart.Level2QuestionActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".ExamPart.Level3QuestionActivity" />
+        <activity android:name=".ExamPart.Level4QuestionActivity" />
+        <activity android:name=".Book1" />
+        <activity android:name=".Book2" />
+        <activity android:name=".Book3" />
+        <activity
+            android:name=".Tab"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".gonit" />
+        <activity android:name=".Bangla_Sahitto_Description"></activity>
+    </application>
+
+</manifest>

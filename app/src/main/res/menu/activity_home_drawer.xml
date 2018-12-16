@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_HomeId"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_AboutDeveloperId"
+            android:icon="@drawable/about_developer_icon"
+            android:title="About Developer" />
+        <item
+            android:id="@+id/nav_ShareId"
+            android:icon="@drawable/share_icon"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_RefaranceId"
+            android:icon="@drawable/refarance_icon"
+            android:title="Refarance" />
+    </group>
+
+    <item android:title="Communicate">
+        <!--<menu>
+            <item
+                android:id="@+id/nav_FeedbackId"
+                android:icon="@drawable/send_feedback_icon"
+                android:title="Feedback"/>
+            <item
+                android:id="@+id/nav_FeedbackId2"
+                android:icon="@drawable/feedback_icon"
+                android:title="Show Feedback" />
+        </menu>-->
+    </item>
+
+</menu>

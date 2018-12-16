@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Bangla_Sahitto_Description">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question2"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question3"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question4"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question5"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question6"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question7"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question8"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question9"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question10"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question11"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question12"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question13"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/question14"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:id="@+id/answer14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</ScrollView>

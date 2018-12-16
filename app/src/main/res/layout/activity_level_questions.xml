@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mtii"
+    tools:context=".ExamPart.Level1QuestionActivity">
+
+    <TextView
+    android:gravity="center"
+    android:id="@+id/Score"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Score : "
+    android:textColor="#f22"
+    android:textStyle="bold"
+    android:textSize="25sp"
+    android:paddingTop="20sp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="139dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="20sp"
+        android:text="Question"
+        android:textColor="#050505"
+        android:textSize="25sp" />
+
+
+
+
+
+    <Button
+        android:textColor="#830358"
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_two"/>
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_three"/>
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_four"/>
+
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout >
+
