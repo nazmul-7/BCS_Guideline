@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -85,6 +86,7 @@ public class Level4QuestionActivity extends AppCompatActivity implements View.On
 
         //Log.d("TempQuestionArray", question.questions[ranInt]);
         //Log.d("TempQuestionArrayIndex", String.valueOf(ranInt));
+         Log.d("answer",question.getCorrectAnswer(ranInt));
         return ranInt;
     }
 

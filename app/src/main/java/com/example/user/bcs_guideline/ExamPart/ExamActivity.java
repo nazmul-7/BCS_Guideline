@@ -42,22 +42,22 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
                 "\n Level 4 Score = "+userDetails.getL4()+
                 "\n Level 5 Score = "+userDetails.getL5());
 
-        if(userDetails.getL1()<3){
+        if(userDetails.getL1()<4){
             Level2Button.setEnabled(false);
             Level2Button.setText("Level 2(Locked)");
             Level2Button.setBackgroundColor(R.color.Level2_disable);
         }
-        if(userDetails.getL2()<3){
+        if(userDetails.getL2()<14){
             Level3Button.setEnabled(false);
             Level3Button.setText("Level 3(Locked)");
             Level3Button.setBackgroundColor(R.color.Level3_disable);
         }
-if(userDetails.getL3()<3){
+if(userDetails.getL3()<14){
             Level4Button.setEnabled(false);
             Level4Button.setText("Level 4(Locked)");
             Level4Button.setBackgroundColor(R.color.Level3_disable);
         }
-if(userDetails.getL4()<3){
+if(userDetails.getL4()<19){
             Level5Button.setEnabled(false);
             Level5Button.setText("Level 5(Locked)");
             Level5Button.setBackgroundColor(R.color.Level3_disable);
